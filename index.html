@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="rat.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="heading">
+      <img src="mouse.png" alt="Rat in the Maze" />
+      <h1 class="head">&nbsp&nbsp&nbsp&nbsp Rat in the Maze</h1>
+    </div>
+    <div class="inp">
+      <div>Enter the size of Maze...</div>
+
+      <div>
+        <input type="text" name="takeInput" id="val" placeholder="eg. 4" />
+        <button type="button" class="butt" onclick="initialize()">
+          Create Maze
+        </button>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="inpmaze">
+        <div id="mazebox">
+          <!-- <p id="inpbox">Click boxes to change the colour</p> -->
+          <p class="clc" id="wordd">Click boxes to add/remove hurdle</p>
+        </div>
+
+        <div class="chang" id="change">
+          <button class="button-73" id="ch" onclick="startMove()">
+            <span class="material-symbols-outlined">ads_click</span>
+            START
+          </button>
+          <!-- <button onclick="window.location.reload()">Refresh</button> -->
+          <div id="rep" onclick="window.location.reload()">
+            <span class="material-symbols-outlined"> replay </span>
+            Click to Refresh
+          </div>
+        </div>
+      </div>
+
+      <div class="outputmaze" id="container">
+        <p class="clc" id="worrdd">Movement of Rat</p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="rat.js"></script>
+  </body>
+</html>
