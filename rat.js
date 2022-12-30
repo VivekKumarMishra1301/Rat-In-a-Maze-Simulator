@@ -158,7 +158,7 @@ var maze;
             document.getElementById(track[v]).style.backgroundColor="yellow";
             document.getElementById(track[v]).style.color="yellow";
           }
-          setTimeout(traverse,2000,v+1);
+          setTimeout(traverse,1000,v+1);
 
       }
 
