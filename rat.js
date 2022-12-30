@@ -5,8 +5,8 @@ var maze;
       var size = document.getElementById("val").value;
       maze = [];
       var smaze = [];
-  var track=[];
-  var manage=[];
+      var track=[];
+      var manage=[];
      
 
       function initialize() {
