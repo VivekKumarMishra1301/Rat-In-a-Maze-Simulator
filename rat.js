@@ -135,7 +135,7 @@ var maze;
           rat(0,0);
 
 
-          setTimeout(traverse,3000,0);
+          setTimeout(traverse,2000,0);
 
 
       }
