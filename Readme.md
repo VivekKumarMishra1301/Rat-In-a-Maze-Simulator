@@ -29,3 +29,12 @@ The simulator provides step-by-step explanations of the algorithms used, helping
 * Click on "Start" to begin the simulation.
 * Observe the rat's movements in real-time.
 * Click on "Reset" to start over or modify the maze.
+
+## Contributing
+Contributions are welcome! If you'd like to contribute to the Rat in the Maze Simulator, please follow these steps:
+
+* Fork the repository.
+* Create a new branch for your feature/bug fix.
+* Make your changes and commit them.
+* Push your changes to your forked repository.
+* Submit a pull request, explaining your changes in detail and mentioning any relevant information.
