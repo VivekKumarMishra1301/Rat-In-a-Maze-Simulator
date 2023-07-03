@@ -9,9 +9,9 @@ Welcome to the Rat in the Maze Simulator! This web project aims to provide a vis
 The simulator displays each step taken by the rat in real-time, providing a visual representation of the maze traversal process.
 ### Backtracking:
 Witness the rat's ability to backtrack and explore different paths in order to find the optimal route to the maze exit.
-### Interactive Interface: 
-The user-friendly interface allows users to interact with the simulation, pause and resume, and navigate through different steps.
 ### Multiple Maze Configurations: 
 Choose from a variety of maze configurations to challenge the rat and explore the different maze solving strategies.
 ### Step-by-Step Explanation: 
 The simulator provides step-by-step explanations of the algorithms used, helping users understand the underlying concepts of maze traversal.
+
+![logo](https://github.com/krsachin9696/Rat-In-a-Maze-Simulator/blob/master/mouse.png)
