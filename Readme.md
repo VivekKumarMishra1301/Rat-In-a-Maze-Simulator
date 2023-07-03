@@ -21,29 +21,13 @@ The simulator provides step-by-step explanations of the algorithms used, helping
 
 Here's a step-by-step processfor initial setup and usage of Rat in the Maze Simulator:
 
-Open the Rat in the Maze Simulator:
-Navigate to the web application of the Rat in the Maze Simulator by accessing the provided URL.
-
-Specify the Maze Size: 
-Upon opening the simulator, you will be presented with an input box to specify the size of the maze. Enter the desired size, indicating the number of rows and columns, and ensure that the input values are valid (e.g., positive integers).
-
-Create the Maze: 
-After specifying the maze size, click on the "Create Maze" button. The simulator will generate a maze based on the provided dimensions, and all cells will initially appear green, indicating a clear path.
-
-Add Hindrances: 
-To add hindrances or obstacles to the maze, simply click on any desired cell(s). Upon clicking, the respective cell(s) will turn red, indicating a blocked path. This feature allows you to customize the maze layout by adding obstacles for the rat to navigate around.
-
-Start the Simulation: 
-Once you have set up the maze and added hindrances, click on the "Start" button to begin the simulation. The rat will start exploring the maze from the starting point and proceed towards finding the exit.
-
-Observe the Rat's Movements: 
-During the simulation, the rat's movements will be visually displayed in real-time. You can observe each step it takes, including any backtracking, as it tries to find the optimal path to the maze's exit. The simulator will update the visualization with each move the rat makes.
-
-Pause and Resume the Simulation: 
-If you wish to pause the simulation at any point, click on the "Pause" button. This will temporarily halt the rat's movements, allowing you to analyze the current state of the maze. To resume the simulation, click on the "Resume" button.
-
-Navigate through Simulation Steps: 
-You can navigate through the simulation steps by using the provided controls, such as "Next Step" and "Previous Step" buttons. This allows you to manually step through the rat's movements and examine each stage of its path-finding process.
-
-Reset the Simulation: 
-To start over or try a new configuration, click on the "Reset" button. This will clear the current maze and any hindrances added, allowing you to create a new maze or modify the existing one.
+Open the Rat in the Maze Simulator.
+Specify the maze size using the input box.
+Click on "Create Maze" to generate the maze.
+Cells in the maze initially appear green (no hindrances).
+Click on cells to add hindrances (turns them red).
+Click on "Start" to begin the simulation.
+Observe the rat's movements in real-time.
+Pause and resume the simulation as needed.
+Navigate through simulation steps using controls.
+Click on "Reset" to start over or modify the maze.
